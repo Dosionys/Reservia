@@ -13,6 +13,7 @@ body{
 a{
     color: unset;
     text-decoration: unset;
+    display: block;
 }
 #imglogo{
     margin-top: 2em;
@@ -166,4 +167,216 @@ nav ul{
     width: 2em;
     border-radius: 2em;
     text-align: center;
+}
+.etoilepleine{
+    width: 1.2em;
+    color: #0065FC;
+}
+.etoilevide{
+    width: 1.2em;
+    color: #acacac;
+}
+.petitcarre{
+    border-radius: 2em;
+    width: 30.5%;
+    height: 15em;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+}
+#hebergement{
+    display: flex;
+    justify-content: space-between;
+}
+#marseille{
+    border-radius: 2em;
+    width: 60%;
+    height: 45em;
+    margin-top: 3em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    background-color: #F2F2F2;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+    margin-left: 1em;
+}
+#propositionhebergement{
+    height: 80%;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imagehebergement1{
+    width: 95%;
+    height: 56%;
+    margin: auto;
+    margin-top: 8px;
+    border-radius: 1.5em 1.5em 0 0;
+    background-image: url('Hebergement/hebergement1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.imagehebergement2{
+    width: 95%;
+    height: 56%;
+    margin: auto;
+    margin-top: 8px;
+    border-radius: 1.5em 1.5em 0 0;
+    background-image: url('Hebergement/hebergement2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.imagehebergement3{
+    width: 95%;
+    height: 56%;
+    margin: auto;
+    margin-top: 8px;
+    border-radius: 1.5em 1.5em 0 0;
+    background-image: url('Hebergement/hebergement3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.imagehebergement4{
+    width: 95%;
+    height: 56%;
+    margin: auto;
+    margin-top: 8px;
+    border-radius: 1.5em 1.5em 0 0;
+    background-image: url('Hebergement/hebergement4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.imagehebergement5{
+    width: 95%;
+    height: 56%;
+    margin: auto;
+    margin-top: 8px;
+    border-radius: 1.5em 1.5em 0 0;
+    background-image: url('Hebergement/hebergement5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.imagehebergement6{
+    width: 95%;
+    height: 56%;
+    margin: auto;
+    margin-top: 8px;
+    border-radius: 1.5em 1.5em 0 0;
+    background-image: url('Hebergement/hebergement6.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.imagehebergement7{
+    width: 33%;
+    height: 92%;
+    margin: auto;
+    margin-left: 8px;
+    margin-right: 0;
+    border-radius: 1.8em 0 0 1.8em;
+    background-image: url('Hebergement/hebergement7.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.imagehebergement8{
+    width: 35%;
+    height: 92%;
+    margin: auto;
+    margin-left: 8px;
+    margin-right: 0;
+    border-radius: 1.8em 0 0 1.8em;
+    background-image: url('Hebergement/hebergement8.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.imagehebergement9{
+    width: 33%;
+    height: 92%;
+    margin: auto;
+    margin-left: 8px;
+    margin-right: 0;
+    border-radius: 1.8em 0 0 1.8em;
+    background-image: url('Hebergement/hebergement9.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.afficher{
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+.texthebergement h3{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-family: 'Raleway-Bold';
+    font-size: 1.2em;
+}
+.texthebergement p{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.texthebergement{
+    margin-left: 20px;
+}
+#marseille h2{
+    padding-top: 1em;
+    font-family: 'Raleway-Bold';
+    font-size: 1.5em;
+}
+#populaire{
+    width: 32%;
+    height: 45em;
+    margin-top: 3em;
+    margin-right: 1em;
+    background-color: #F2F2F2;
+    border-radius: 2em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+}
+.petitcarre2{
+    display: flex;
+    border-radius: 2em;
+    width: 85%;
+    height: 28%;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+    margin: auto;
+}
+#propositionpopulaire{
+    height: 38em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#populaire h2{
+    padding-top: 1em;
+    font-family: 'Raleway-Bold';
+    font-size: 1.5em;
+    margin-left: 2em;
+}
+.stonk{
+    width: 2em;
+    position: absolute;
+    right: 80px;
+    top: 37em;
+}
+.texthebergement2 h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Raleway-Bold';
+    font-size: 1.2em;
+}
+.texthebergement2 p{
+    margin-bottom: 4em;
+}
+.texthebergement2{
+    margin-left: 20px;
+}
+.texthebergement3 h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Raleway-Bold';
+    font-size: 1.2em;
+}
+.texthebergement3 p{
+    margin-bottom: 2.7em;
+}
+.texthebergement3{
+    margin-left: 20px;
 }
