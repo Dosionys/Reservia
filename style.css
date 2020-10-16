@@ -506,6 +506,16 @@ footer{
     box-shadow: rgba(0, 0, 0, 0.829) 0px 0px 10px;
 }
 .boutonfiltre:hover{
-    box-shadow: rgba(0, 0, 0, 0.623) 0px 0px 8px;
+    box-shadow: rgba(0, 0, 0, 0.623) 0px 0px 3px;
     border: rgba(0, 0, 0, 0.404) 2px solid;
+}
+.infobas a:hover{
+    text-shadow: black 0px 0px 1px;
+}
+.liennav:hover{
+    color: black;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.459);
+}
+#boutonrecherche:hover{
+    text-shadow: white 0px 0px 6px;
 }
