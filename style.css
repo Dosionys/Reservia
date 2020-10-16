@@ -1,0 +1,169 @@
+@font-face{
+    font-family: 'Raleway';
+    src: url('Police/Raleway.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'Raleway-Bold';
+    src: url('Police/Raleway-Bold.ttf') format('truetype');
+}
+body{
+    margin: 0;
+    font-family: 'Raleway-Bold';
+}
+a{
+    color: unset;
+    text-decoration: unset;
+}
+#imglogo{
+    margin-top: 2em;
+    height: 4em;
+    margin-left: 1em;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+}
+nav{
+    margin-right: 1em;
+}
+nav ul{
+    display: flex;
+    font-size: 1.4em;
+    width: 30em;
+    list-style-type: none;
+    padding: 0;
+    height: 100%;
+    margin: 0;
+}
+.liennav{
+    width: 33.33%;
+    text-align: center;
+    padding-top: 2em;
+}
+.liennav:nth-child(1){
+    border-top: solid 3px #0065FC;
+    color: #0065FC;
+    font-family: 'Raleway';
+}
+.liennav:nth-child(2){
+    font-family: 'Raleway';
+}
+.liennav:nth-child(3){
+    color: #0065FC;
+}
+#recherche{
+    display: flex;
+}
+.marker{
+    height: 1.5em;
+}
+#entete{
+    padding-left: 1em;
+}
+#entete h1{
+    font-size: 1.9em;
+    margin: 0;
+}
+#entete p{
+    font-size: 1.38em;
+    font-family: 'Raleway';
+    margin-top: 0.5em;
+}
+.boitelogolocalisation{
+    height: 4em;
+    width: 4em;
+    text-align: center;
+    border-radius: 1em 0 0 1em;
+    background-color: #e2e2e2;
+}
+.marker{
+    padding-top: 1.2em;
+}
+#barrerecherche{
+    width: 15em;
+    font-family: 'Raleway-Bold';
+    font-size: 1.4em;
+    border: unset;
+    border-top: #e2e2e2 solid 2px;
+    border-bottom: #e2e2e2 solid 2px;
+}
+#boutonrecherche{
+    width: 10em;
+    font-size: 1.2em;
+    font-family: 'Raleway';
+    background-color:  #0065FC;
+    border: unset;
+    border-radius: 0 1em 1em 0;
+    color: white;
+
+}
+.logofiltre svg{
+    width: 1.3em;
+    color: #0065FC;
+}
+#filtres{
+    display: flex;
+    margin-top: 2em;
+    width: 60%;
+}
+.logofiltre{
+    width: 3.3em;
+    height: 2.3em;
+    text-align: center;
+    padding-top: 0.9em;
+    background-color: #DEEBFF;
+    border-radius: 2em;
+}
+.logofiltre2{
+    width: 3.3em;
+    height: 2.5em;
+    text-align: center;
+    padding-top: 0.7em;
+    background-color: #DEEBFF;
+    border-radius: 2em;
+}
+.boutonfiltre{
+    border: solid #cacaca 2px;
+    margin: auto;
+    height: 3.2em;
+    border-radius: 2.5em;
+}
+.lienfiltre{
+    display: flex;
+}
+.logofiltre2 svg{
+    width: 1.3em;
+    color: #0065FC;
+}
+.boutonfiltre p{
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#filtres h2{
+    margin-right: 2em;
+}
+.svgi{
+    width: 0.4em;
+    padding-top: 6px;
+    color: #0065FC;
+}
+#i{
+    margin-top: 4em;
+    display: flex;
+}
+#i p{
+    margin: 0;
+    font-family: 'Raleway';
+    padding-top: 6px;
+    margin-left: 0.6em;
+    font-size: 1.2em;
+}
+.logoi{
+    border: solid #cacaca;
+    height: 2em;
+    width: 2em;
+    border-radius: 2em;
+    text-align: center;
+}
