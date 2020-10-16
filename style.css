@@ -110,9 +110,9 @@ nav ul{
 }
 .logofiltre{
     width: 3.3em;
-    height: 2.3em;
+    height: 2.2em;
     text-align: center;
-    padding-top: 0.9em;
+    padding-top: 1em;
     background-color: #DEEBFF;
     border-radius: 2em;
 }
@@ -162,7 +162,7 @@ nav ul{
     font-size: 1.2em;
 }
 .logoi{
-    border: solid #cacaca;
+    border: solid #cacaca 2px;
     height: 2em;
     width: 2em;
     border-radius: 2em;
@@ -379,4 +379,133 @@ nav ul{
 }
 .texthebergement3{
     margin-left: 20px;
+}
+#activites h2{
+    margin-top: 4em;
+    font-family: 'Raleway-Bold';
+    font-size: 1.5em;
+}
+.petitcarre3{
+    width: 23%;
+    border-radius: 2em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+}
+#propositionactivites{
+    height: 35em;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5em;
+}
+.activites2{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imageactivite1{
+    background: url("Activites/activite1.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90%;
+    border-radius: 2em 2em 0 0;
+}
+.imageactivite4{
+    background: url("Activites/activite4.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90%;
+    border-radius: 2em 2em 0 0;
+}
+#activites h3{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-family: 'Raleway-Bold';
+    font-size: 1.2em;
+    margin-left: 25px;
+}
+.petitcarre4{
+    height: 55%;
+    border-radius: 2em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+}
+.petitcarre5{
+    height: 37%;
+    border-radius: 2em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+}
+.imageactivite2{
+    background: url("Activites/activite2.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    border-radius: 2em 2em 0 0;
+}
+.imageactivite6{
+    background: url("Activites/activite6.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    border-radius: 2em 2em 0 0;
+}
+.imageactivite3{
+    background: url("Activites/activite3.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 75%;
+    border-radius: 2em 2em 0 0;
+}
+.imageactivite5{
+    background: url("Activites/activite5.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 75%;
+    border-radius: 2em 2em 0 0;
+}
+#activites{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+footer{
+    background-color: #F2F2F2;
+    display: flex;
+    height: 15em;
+}
+.infobas{
+    margin-left: 2.5em;
+    margin-top: 1.5em;
+    width: 25%;
+}
+.infobas h3{
+    font-family: 'Raleway-Bold';
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.infobas a{
+    margin-bottom: 0.9em;
+    font-family: 'Raleway';
+}
+.petitcarre:hover{
+    box-shadow: rgba(0, 0, 0, 0.829) 0px 0px 10px;
+}
+.petitcarre2:hover{
+    box-shadow: rgba(0, 0, 0, 0.829) 0px 0px 10px;
+}
+.petitcarre3:hover{
+    box-shadow: rgba(0, 0, 0, 0.829) 0px 0px 10px;
+}
+.petitcarre4:hover{
+    box-shadow: rgba(0, 0, 0, 0.829) 0px 0px 10px;
+}
+.petitcarre5:hover{
+    box-shadow: rgba(0, 0, 0, 0.829) 0px 0px 10px;
+}
+.boutonfiltre:hover{
+    box-shadow: rgba(0, 0, 0, 0.623) 0px 0px 8px;
+    border: rgba(0, 0, 0, 0.404) 2px solid;
 }
