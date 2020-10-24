@@ -97,11 +97,16 @@ nav ul{
     border: unset;
     border-radius: 0 1em 1em 0;
     color: white;
-
 }
-.loupe{
+#boutonrecherche p{
+    font-size: 1em;
+    padding-left: 1.7em;
+    padding-top: 0.5em;
+}
+#boutonrecherchemobile{
     display: none;
-    width: 2em;
+    color: white;
+    background-color:  #0065FC;
 }
 .logofiltre svg{
     width: 1.3em;
@@ -620,9 +625,10 @@ footer{
     .liennav:nth-child(3){
         position: absolute;
         top: 0.7em;
-        right: -2em;
+        right: 0em;
         font-size: 0.8em;
         color: #0065FC;
+        width: 5em;
     }
     nav{
         margin: 0;
@@ -636,10 +642,22 @@ footer{
         align-items: flex-end;
     }
     #boutonrecherche{
-        width: 2.8em;
-        border-radius: 1em;
+        display: none;
+    }
+    #boutonrecherchemobile{
+        display: unset;
+        width: 3em;
+        border: solid;
+        text-align: center;
+        border-radius: 1.3em;
+        height: 3em;
         position: relative;
-        right: 0.75em;
+        right: 5px;
+        top: -4px;
+    }
+    .loupe{
+        width: 1.5em;
+        padding-top: 11px;
     }
     #entete{
         padding: 0;
@@ -654,8 +672,8 @@ footer{
     }
     #recherche{
         height: 3em;
+        margin: auto;
         margin-top: 2em;
-        margin-left: 1em;
     }
     .boitelogolocalisation{
         height: 3em;
@@ -794,5 +812,8 @@ footer{
     }
     #activites h3{
         margin-top: 10px;
+    }
+    .infobas{
+        width: 80%;
     }
 }
