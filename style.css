@@ -10,37 +10,43 @@ body{
     margin: 0;
     font-family: 'Raleway-Bold';
 }
+#bloc_page{
+    max-width: 1920px;
+    margin: auto;
+}
 a{
     color: unset;
     text-decoration: unset;
     display: block;
 }
 #imglogo{
-    margin-top: 2em;
-    height: 4em;
+    margin-top: 3em;
+    height: 3.5em;
     margin-left: 1em;
 }
 header{
     display: flex;
     justify-content: space-between;
     margin-bottom: 3em;
+    padding-left: 2em;
 }
 nav{
-    margin-right: 1em;
+    margin-right: 3em;
 }
 nav ul{
     display: flex;
-    font-size: 1.4em;
-    width: 30em;
+    justify-content: space-between;
+    font-size: 1.2em;
+    width: 35em;
     list-style-type: none;
     padding: 0;
     height: 100%;
     margin: 0;
 }
 .liennav{
-    width: 33.33%;
+    width: 33%;
     text-align: center;
-    padding-top: 2em;
+    padding-top: 3em;
 }
 .liennav:nth-child(1){
     border-top: solid 3px #0065FC;
@@ -60,7 +66,7 @@ nav ul{
     height: 1.5em;
 }
 #entete{
-    padding-left: 1em;
+    padding-left: 3em;
 }
 #entete h1{
     font-size: 1.9em;
@@ -198,6 +204,8 @@ nav ul{
 #hebergement{
     display: flex;
     justify-content: space-between;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 #marseille{
     border-radius: 2em;
@@ -484,8 +492,8 @@ nav ul{
     border-radius: 2em 2em 0 0;
 }
 #activites{
-    margin-left: 1em;
-    margin-right: 1em;
+    padding-left: 4em;
+    padding-right: 4em;
 }
 footer{
     background-color: #F2F2F2;
@@ -604,6 +612,7 @@ footer{
     header{
         flex-direction: column;
         margin-bottom: 1em;
+        padding: 0;
     }
     #imglogo{
         width: 10em;
@@ -640,6 +649,7 @@ footer{
         margin: 0;
         width: 100%;
         align-items: flex-end;
+        font-size: 1.4em;
     }
     #boutonrecherche{
         display: none;
@@ -727,6 +737,9 @@ footer{
     .svgi{
         padding-top: 4px;
     }
+    #hebergement{
+        padding: 0;
+    }
     #populaire{
         margin: 0;
         border-radius: 0;
@@ -778,6 +791,7 @@ footer{
         margin-left: 1em;
     }
     #activites{
+        padding: 0;
         margin: 0;
         margin-left: 0.5em;
         margin-right: 0.5em;
