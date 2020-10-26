@@ -121,7 +121,6 @@ nav ul{
 #filtres{
     display: flex;
     margin-top: 2em;
-    width: 60%;
     flex-wrap: wrap;
 }
 .logofiltre{
@@ -142,11 +141,10 @@ nav ul{
 }
 .boutonfiltre{
     border: solid #cacaca 2px;
-    margin: auto;
     height: 3.2em;
     border-radius: 2.5em;
-    margin-right: 1em;
-    margin-bottom: 1em;
+    margin-right: 3em;
+    margin-top: 5px;
 }
 .lienfiltre{
     display: flex;
