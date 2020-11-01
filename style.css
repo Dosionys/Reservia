@@ -49,8 +49,6 @@ nav ul{
     padding-top: 3em;
 }
 .liennav:nth-child(1){
-    border-top: solid 3px #0065FC;
-    color: #0065FC;
     font-family: 'Raleway';
 }
 .liennav:nth-child(2){
@@ -69,11 +67,11 @@ nav ul{
     padding-left: 3em;
 }
 #entete h1{
-    font-size: 1.9em;
+    font-size: 1.75em;
     margin: 0;
 }
 #entete p{
-    font-size: 1.38em;
+    font-size: 1.3em;
     font-family: 'Raleway';
     margin-top: 0.5em;
 }
@@ -111,7 +109,6 @@ nav ul{
 }
 #boutonrecherchemobile{
     display: none;
-    color: white;
     background-color:  #0065FC;
 }
 .logofiltre svg{
@@ -125,23 +122,29 @@ nav ul{
 }
 .logofiltre{
     width: 3.3em;
-    height: 2.2em;
+    height: 2.25em;
     text-align: center;
     padding-top: 1em;
     background-color: #DEEBFF;
     border-radius: 2em;
+    position: relative;
+    left: -2.5px;
+    top: -1.85px;
 }
 .logofiltre2{
     width: 3.3em;
-    height: 2.5em;
+    height: 2.55em;
     text-align: center;
     padding-top: 0.7em;
     background-color: #DEEBFF;
     border-radius: 2em;
+    position: relative;
+    left: -3px;
+    top: -1.85px;
 }
 .boutonfiltre{
     border: solid #cacaca 2px;
-    height: 3.2em;
+    height: 3em;
     border-radius: 2.5em;
     margin-right: 3em;
     margin-top: 5px;
@@ -155,8 +158,8 @@ nav ul{
 }
 .boutonfiltre p{
     margin: 0;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 15px;
 }
 #filtres h2{
     margin-right: 2em;
@@ -214,7 +217,6 @@ nav ul{
     padding-right: 2.5em;
     background-color: #F2F2F2;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
-    margin-left: 1em;
 }
 #propositionhebergement{
     height: 80%;
@@ -284,7 +286,7 @@ nav ul{
     background-position: center;
 }
 .imagehebergement7{
-    width: 33%;
+    width: 35%;
     height: 92%;
     margin: auto;
     margin-left: 8px;
@@ -306,7 +308,7 @@ nav ul{
     background-position: center;
 }
 .imagehebergement9{
-    width: 33%;
+    width: 35%;
     height: 92%;
     margin: auto;
     margin-left: 8px;
@@ -342,7 +344,7 @@ nav ul{
     width: 32%;
     height: 45em;
     margin-top: 3em;
-    margin-right: 1em;
+    margin-left: 3em;
     background-color: #F2F2F2;
     border-radius: 2em;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
@@ -385,10 +387,11 @@ nav ul{
     font-size: 1.2em;
 }
 .texthebergement2 p{
-    margin-bottom: 4em;
+    margin-bottom: 3.2em;
 }
 .texthebergement2{
-    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
 }
 .texthebergement3 h3{
     margin-top: 10px;
@@ -490,8 +493,8 @@ nav ul{
     border-radius: 2em 2em 0 0;
 }
 #activites{
-    padding-left: 4em;
-    padding-right: 4em;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 footer{
     background-color: #F2F2F2;
@@ -528,15 +531,15 @@ footer{
     box-shadow: rgba(0, 0, 0, 0.829) 0px 0px 10px;
 }
 .boutonfiltre:hover{
-    box-shadow: rgba(0, 0, 0, 0.623) 0px 0px 3px;
-    border: rgba(0, 0, 0, 0.404) 2px solid;
+    color: #0065FC;
+    border: #00000051 2px solid;
 }
 .infobas a:hover{
     text-shadow: black 0px 0px 1px;
 }
 .liennav:hover{
-    color: black;
-    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.459);
+    border-top: solid 3px #0065FC;
+    color: #0065FC;
 }
 #boutonrecherche:hover{
     text-shadow: white 0px 0px 6px;
@@ -602,6 +605,97 @@ footer{
         height: 80%;
     }
 }
+@media screen and (max-width: 1000px)
+{
+    header{
+        flex-direction: column;
+    }
+    #imglogo{
+        width: 7.5em;
+    }
+    nav ul{
+        width: unset;
+        margin-left: 1em;
+    }
+    #marseille{
+        height: 65em;
+    }
+    #propositionhebergement{
+        justify-content: space-around;
+    }
+    .petitcarre{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 750px)
+{
+    header{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    nav{
+        margin: 0;
+    }
+    #entete{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    #hebergement{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    #activites{
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+    .petitcarre{
+        width: 100%;
+        height: 15%;
+    }
+    #marseille{
+        height: 130em;
+    }
+    #propositionhebergement{
+        height: 90%;
+    }
+    .afficher{
+        margin-top: 50px;
+    }
+    #activites h2{
+        margin-top: 1em;
+    }
+    #propositionactivites{
+        margin: 0;
+        margin-bottom: 2em;
+        height: 95em;
+    }
+    .activites2{
+        flex-direction: column;
+        height: 33%;
+    }
+    .petitcarre3{
+        width: 100%;
+        height: 16%;
+        margin: auto;
+        margin-bottom: 1.5em;
+    }
+    .petitcarre4{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 1.5em;
+    }
+    .petitcarre5{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 1.5em;
+    }
+    #activites h3{
+        margin-top: 10px;
+    }
+    footer{
+        height: 18em;
+    }
+}
 @media all and (max-device-width: 480px)
 {
     #bloc_page{
@@ -609,11 +703,12 @@ footer{
     }
     header{
         flex-direction: column;
-        margin-bottom: 1em;
+        margin-bottom: 2em;
         padding: 0;
     }
     #imglogo{
-        width: 10em;
+        width: 7.5em;
+        margin-top: 1.5em;
     }
     .liennav:nth-child(1){
         border-top: unset;
@@ -642,6 +737,7 @@ footer{
     }
     .liennav{
         width: 50%;
+        padding-top: 1.5em;
     }
     nav ul{
         margin: 0;
@@ -652,20 +748,22 @@ footer{
     #boutonrecherche{
         display: none;
     }
+    #barrerecherche{
+        border-top: 1.5px solid rgba(0, 0, 0, 0.15);
+        border-bottom: 1.5px solid rgba(0, 0, 0, 0.15);
+    }
     #boutonrecherchemobile{
         display: unset;
-        width: 3em;
-        border: solid;
+        width: 3.1em;
         text-align: center;
-        border-radius: 1.3em;
-        height: 3em;
+        border-radius: 1em;
         position: relative;
-        right: 5px;
-        top: -4px;
+        left: -14px;
+        color: white;
     }
     .loupe{
-        width: 1.5em;
-        padding-top: 11px;
+        width: 1.1em;
+        padding-top: 15px;
     }
     #entete{
         padding: 0;
@@ -677,11 +775,13 @@ footer{
     }
     #entete p{
         font-size: 1em;
+        margin-top: 0;
     }
     #recherche{
         height: 3em;
         margin: auto;
         margin-top: 2em;
+        padding-left: 1em;
     }
     .boitelogolocalisation{
         height: 3em;
@@ -693,14 +793,15 @@ footer{
     }
     .marker{
         padding-top: 0.7em;
-        width: 0.9em;
+        width: 0.8em;
     }
     .boutonfiltre{
+        font-size: 1.1em;
         margin: 0;
-        margin-bottom: 1em;
-        margin-right: 1em;
-        font-size: 1em;
-        height: 3em;
+        margin-right: 0.6em;
+        margin-bottom: 0.7em;
+        height: 2.4em;
+        padding-bottom: 7px;
     }
     #filtres h2{
         margin-right: 10em;
@@ -714,15 +815,18 @@ footer{
         width: 100%;
     }
     .logofiltre{
-        height: 1.99em;
+        height: 2.05em;
         width: 3em;
+        top: -2px;
     }
     .logofiltre2{
-        height: 2.25em;
+        height: 2.35em;
         width: 3em;
+        top: -2px;
     }
     .lienfiltre p{
-        padding-top: 7px;
+        padding-top: 14px;
+        padding-left: 4px;
     }
     #i{
         margin-top: 1em;
@@ -769,6 +873,8 @@ footer{
         flex-wrap: nowrap;
         flex-direction: column;
         height: 90%;
+        padding-left: 0.7em;
+        padding-right: 0.7em;
     }
     .petitcarre{
         width: 95%;
@@ -778,6 +884,7 @@ footer{
         height: 115em;
         margin-left: 0;
         margin-right: 0;
+        margin-top: 0;
         background-color: unset;
         box-shadow: unset;
         padding: 0;
@@ -787,12 +894,15 @@ footer{
     }
     .afficher{
         margin-left: 1em;
+        margin-top: 1em;
     }
     #activites{
         padding: 0;
         margin: 0;
         margin-left: 0.5em;
         margin-right: 0.5em;
+        padding-left: 0.7em;
+        padding-right: 0.7em;
     }
     #activites h2{
         margin-top: 1em;
