@@ -86,7 +86,7 @@ nav ul{
     padding-top: 1.2em;
 }
 #barrerecherche{
-    width: 15em;
+    width: 14em;
     font-family: 'Raleway-Bold';
     font-size: 1.4em;
     border: unset;
@@ -94,7 +94,7 @@ nav ul{
     border-bottom: #e2e2e2 solid 2px;
 }
 #boutonrecherche{
-    width: 10em;
+    width: 9em;
     font-size: 1.2em;
     font-family: 'Raleway';
     background-color:  #0065FC;
