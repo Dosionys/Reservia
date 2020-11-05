@@ -9,9 +9,10 @@
 body{
     margin: 0;
     font-family: 'Raleway-Bold';
+    width: auto;
 }
 #bloc_page{
-    max-width: 1920px;
+    max-width: 1440px;
     margin: auto;
 }
 a{
@@ -20,24 +21,23 @@ a{
     display: block;
 }
 #imglogo{
-    margin-top: 3em;
+    margin-top: 50px;
     height: 3.5em;
-    margin-left: 1em;
 }
 header{
     display: flex;
     justify-content: space-between;
     margin-bottom: 3em;
-    padding-left: 2em;
+    padding-left: 55px;
 }
 nav{
-    margin-right: 3em;
+    margin-right: 30px;
 }
 nav ul{
     display: flex;
     justify-content: space-between;
-    font-size: 1.2em;
-    width: 35em;
+    font-size: 1em;
+    width: 29em;
     list-style-type: none;
     padding: 0;
     height: 100%;
@@ -46,7 +46,7 @@ nav ul{
 .liennav{
     width: 33%;
     text-align: center;
-    padding-top: 3em;
+    padding-top: 50px;
 }
 .liennav:nth-child(1){
     font-family: 'Raleway';
@@ -61,41 +61,43 @@ nav ul{
     display: flex;
 }
 .marker{
-    height: 1.5em;
+    height: 1.2em;
 }
 #entete{
-    padding-left: 3em;
+    padding-left: 55px;
 }
 #entete h1{
-    font-size: 1.75em;
+    font-size: 1.4em;
     margin: 0;
 }
 #entete p{
-    font-size: 1.3em;
+    font-size: 1em;
     font-family: 'Raleway';
     margin-top: 0.5em;
 }
 .boitelogolocalisation{
-    height: 4em;
-    width: 4em;
+    height: 50px;
+    width: 50px;
     text-align: center;
     border-radius: 1em 0 0 1em;
     background-color: #e2e2e2;
 }
 .marker{
-    padding-top: 1.2em;
+    padding-top: 15px;
 }
 #barrerecherche{
-    width: 14em;
+    width: 240px;
+    height: 50px;
     font-family: 'Raleway-Bold';
-    font-size: 1.4em;
+    font-size: 1.1em;
     border: unset;
     border-top: #e2e2e2 solid 2px;
     border-bottom: #e2e2e2 solid 2px;
 }
 #boutonrecherche{
-    width: 9em;
-    font-size: 1.2em;
+    width: 135px;
+    height: 50px;
+    font-size: 1.1em;
     font-family: 'Raleway';
     background-color:  #0065FC;
     border: unset;
@@ -104,36 +106,36 @@ nav ul{
 }
 #boutonrecherche p{
     font-size: 1em;
-    padding-left: 1.7em;
-    padding-top: 0.5em;
+    padding-left: 1em;
+    padding-top: 5px;
 }
 #boutonrecherchemobile{
     display: none;
     background-color:  #0065FC;
 }
 .logofiltre svg{
-    width: 1.3em;
+    width: 1.2em;
     color: #0065FC;
 }
 #filtres{
     display: flex;
-    margin-top: 2em;
+    margin-top: 30px;
     flex-wrap: wrap;
 }
 .logofiltre{
-    width: 3.3em;
-    height: 2.25em;
+    width: 52px;
+    height: 34.5px;
     text-align: center;
-    padding-top: 1em;
+    padding-top: 1.1em;
     background-color: #DEEBFF;
     border-radius: 2em;
     position: relative;
-    left: -2.5px;
-    top: -1.85px;
+    left: -3.5px;
+    top: -1.7px;
 }
 .logofiltre2{
-    width: 3.3em;
-    height: 2.55em;
+    width: 50px;
+    height: 41px;
     text-align: center;
     padding-top: 0.7em;
     background-color: #DEEBFF;
@@ -144,9 +146,9 @@ nav ul{
 }
 .boutonfiltre{
     border: solid #cacaca 2px;
-    height: 3em;
-    border-radius: 2.5em;
-    margin-right: 3em;
+    height: 48px;
+    border-radius: 2.7em;
+    margin-right: 20px;
     margin-top: 5px;
 }
 .lienfiltre{
@@ -158,15 +160,17 @@ nav ul{
 }
 .boutonfiltre p{
     margin: 0;
+    padding-top: 6px;
     padding-left: 10px;
-    padding-right: 15px;
+    padding-right: 20px;
 }
 #filtres h2{
     margin-right: 2em;
+    font-size: 1.2em;
 }
 .svgi{
-    width: 0.4em;
-    padding-top: 6px;
+    width: 0.27em;
+    padding-top: 3px;
     color: #0065FC;
 }
 #i{
@@ -176,147 +180,100 @@ nav ul{
 #i p{
     margin: 0;
     font-family: 'Raleway';
-    padding-top: 6px;
+    padding-top: 3px;
     margin-left: 0.6em;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 .logoi{
     border: solid #cacaca 2px;
-    height: 2em;
-    width: 2em;
+    height: 20px;
+    width: 20px;
     border-radius: 2em;
     text-align: center;
 }
 .etoilepleine{
-    width: 1.2em;
+    width: 0.9em;
     color: #0065FC;
 }
 .etoilevide{
-    width: 1.2em;
-    color: #acacac;
+    width: 0.9em;
+   color: #acacac;
 }
 .petitcarre{
-    border-radius: 2em;
-    width: 30.5%;
-    height: 15em;
+    border-radius: 1.5em;
+    width: 30%;
+    height: 200px;
     background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.230);
 }
 #hebergement{
     display: flex;
     justify-content: space-between;
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 #marseille{
     border-radius: 2em;
-    width: 60%;
-    height: 45em;
-    margin-top: 3em;
-    padding-left: 2.5em;
-    padding-right: 2.5em;
+    width: 60.7%;
+    height: 625px;
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
     background-color: #F2F2F2;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.);
 }
 #propositionhebergement{
-    height: 80%;
+    height: 75%;
     display: flex;
     align-content: space-around;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.imagehebergement1{
-    width: 95%;
+.imagehebergement1, .imagehebergement2, .imagehebergement3, .imagehebergement4, .imagehebergement5, .imagehebergement6{
+    width: 96%;
     height: 56%;
     margin: auto;
-    margin-top: 8px;
-    border-radius: 1.5em 1.5em 0 0;
-    background-image: url('Hebergement/hebergement1.jpg');
+    margin-top: 4px;
+    border-radius: 1.2em 1.2em 0 0;
     background-size: cover;
     background-position: center;
+}
+.imagehebergement1{
+    background-image: url('Hebergement/hebergement1.jpg');
 }
 .imagehebergement2{
-    width: 95%;
-    height: 56%;
-    margin: auto;
-    margin-top: 8px;
-    border-radius: 1.5em 1.5em 0 0;
     background-image: url('Hebergement/hebergement2.jpg');
-    background-size: cover;
-    background-position: center;
 }
 .imagehebergement3{
-    width: 95%;
-    height: 56%;
-    margin: auto;
-    margin-top: 8px;
-    border-radius: 1.5em 1.5em 0 0;
     background-image: url('Hebergement/hebergement3.jpg');
-    background-size: cover;
-    background-position: center;
 }
 .imagehebergement4{
-    width: 95%;
-    height: 56%;
-    margin: auto;
-    margin-top: 8px;
-    border-radius: 1.5em 1.5em 0 0;
     background-image: url('Hebergement/hebergement4.jpg');
-    background-size: cover;
-    background-position: center;
 }
 .imagehebergement5{
-    width: 95%;
-    height: 56%;
-    margin: auto;
-    margin-top: 8px;
-    border-radius: 1.5em 1.5em 0 0;
     background-image: url('Hebergement/hebergement5.jpg');
-    background-size: cover;
-    background-position: center;
 }
 .imagehebergement6{
-    width: 95%;
-    height: 56%;
-    margin: auto;
-    margin-top: 8px;
-    border-radius: 1.5em 1.5em 0 0;
     background-image: url('Hebergement/hebergement6.jpg');
+}
+.imagehebergement7, .imagehebergement8, .imagehebergement9{
+    width: 35%;
+    height: 94%;
+    margin: auto;
+    margin-left: 5px;
+    margin-right: 0;
+    border-radius: 1.2em 0 0 1.2em;
     background-size: cover;
     background-position: center;
 }
 .imagehebergement7{
-    width: 35%;
-    height: 92%;
-    margin: auto;
-    margin-left: 8px;
-    margin-right: 0;
-    border-radius: 1.8em 0 0 1.8em;
     background-image: url('Hebergement/hebergement7.jpg');
-    background-size: cover;
-    background-position: center;
 }
 .imagehebergement8{
-    width: 35%;
-    height: 92%;
-    margin: auto;
-    margin-left: 8px;
-    margin-right: 0;
-    border-radius: 1.8em 0 0 1.8em;
     background-image: url('Hebergement/hebergement8.jpg');
-    background-size: cover;
-    background-position: center;
 }
 .imagehebergement9{
-    width: 35%;
-    height: 92%;
-    margin: auto;
-    margin-left: 8px;
-    margin-right: 0;
-    border-radius: 1.8em 0 0 1.8em;
     background-image: url('Hebergement/hebergement9.jpg');
-    background-size: cover;
-    background-position: center;
 }
 .afficher{
     font-size: 1.2em;
@@ -326,40 +283,43 @@ nav ul{
     margin-bottom: 5px;
     margin-top: 10px;
     font-family: 'Raleway-Bold';
-    font-size: 1.2em;
+    font-size: 1em;
 }
 .texthebergement p{
     margin-top: 0;
     margin-bottom: 5px;
+    font-family: 'Raleway',sans-serif;
+    font-size: 0.9em;
 }
 .texthebergement{
     margin-left: 20px;
 }
 #marseille h2{
-    margin-top: 2em;
+    margin-top: 50px;
     font-family: 'Raleway-Bold';
-    font-size: 1.5em;
+    font-size: 1.4em;
+    margin-bottom: 0;
 }
 #populaire{
     width: 32%;
-    height: 45em;
-    margin-top: 3em;
-    margin-left: 3em;
+    height: 625px;
+    margin-top: 40px;
+    margin-left: 40px;
     background-color: #F2F2F2;
     border-radius: 2em;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.);
 }
 .petitcarre2{
     display: flex;
-    border-radius: 2em;
+    border-radius: 1.5em;
     width: 85%;
-    height: 28%;
+    height: 145px;
     background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.230);
     margin: auto;
 }
 #propositionpopulaire{
-    height: 38em;
+    height: 85%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -367,14 +327,15 @@ nav ul{
 #populaire h2{
     margin-top: 2em;
     font-family: 'Raleway-Bold';
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin-left: 2em;
+    margin-bottom: 10px;
 }
 .stonk{
-    width: 2em;
-    height: 2em;
+    width: 1.4em;
+    height: 1.4em;
     margin-top: 2.9em;
-    margin-right: 3em;
+    margin-right: 1.5em;
 }
 #titrepopulaire{
     display: flex;
@@ -382,44 +343,36 @@ nav ul{
 }
 .texthebergement2 h3{
     margin-top: 10px;
-    margin-bottom: 20px;
-    font-family: 'Raleway-Bold';
-    font-size: 1.2em;
+    padding-right: 30px;
+    font-family: 'Raleway-Bold', sans-serif;
+    font-size: 1em;
+    margin-bottom: 0;
 }
 .texthebergement2 p{
-    margin-bottom: 3.2em;
+    font-size: 0.9em;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 40px;
 }
 .texthebergement2{
     padding-left: 20px;
-    padding-right: 10px;
-}
-.texthebergement3 h3{
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-family: 'Raleway-Bold';
-    font-size: 1.2em;
-}
-.texthebergement3 p{
-    margin-bottom: 2.7em;
-}
-.texthebergement3{
-    margin-left: 20px;
+    width: 210px;
 }
 #activites h2{
-    margin-top: 4em;
+    margin-top: 3em;
     font-family: 'Raleway-Bold';
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 .petitcarre3{
     width: 23%;
-    border-radius: 2em;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+    border-radius: 1.5em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.250);
 }
 #propositionactivites{
-    height: 35em;
+    height: 445px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5em;
+    margin-bottom: 60px;
 }
 .activites2{
     width: 23%;
@@ -432,88 +385,92 @@ nav ul{
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 90%;
-    border-radius: 2em 2em 0 0;
+    height: 87%;
+    border-radius: 1.5em 1.5em 0 0;
 }
 .imageactivite4{
     background: url("Activites/activite4.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 90%;
-    border-radius: 2em 2em 0 0;
+    height: 87%;
+    border-radius: 1.5em 1.5em 0 0;
 }
 #activites h3{
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    font-family: 'Raleway-Bold';
-    font-size: 1.2em;
+    font-size: 1em;
     margin-left: 25px;
 }
 .petitcarre4{
     height: 55%;
-    border-radius: 2em;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+    border-radius: 1.5em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.250);
 }
 .petitcarre5{
     height: 37%;
-    border-radius: 2em;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+    border-radius: 1.5em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.250);
 }
 .imageactivite2{
     background: url("Activites/activite2.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 80%;
-    border-radius: 2em 2em 0 0;
+    height: 77%;
+    border-radius: 1.5em 1.5em 0 0;
 }
 .imageactivite6{
     background: url("Activites/activite6.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 80%;
-    border-radius: 2em 2em 0 0;
+    height: 77%;
+    border-radius: 1.5em 1.5em 0 0;
 }
 .imageactivite3{
     background: url("Activites/activite3.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 75%;
-    border-radius: 2em 2em 0 0;
+    height: 65%;
+    border-radius: 1.5em 1.5em 0 0;
 }
 .imageactivite5{
     background: url("Activites/activite5.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 75%;
-    border-radius: 2em 2em 0 0;
+    height: 65%;
+    border-radius: 1.5em 1.5em 0 0;
 }
 #activites{
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 footer{
     background-color: #F2F2F2;
-    display: flex;
-    height: 15em;
 }
 .infobas{
-    margin-left: 2.5em;
+    margin-left: 5em;
     margin-top: 1.5em;
-    width: 25%;
+    width: 20%;
 }
 .infobas h3{
     font-family: 'Raleway-Bold';
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-bottom: 30px;
 }
 .infobas a{
     margin-bottom: 0.9em;
     font-family: 'Raleway';
+    font-size: 0.9em;
+}
+#conteneur{
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    height: 17em;
 }
 .petitcarre:hover{
     box-shadow: rgba(0, 0, 0, 0.829) 0px 0px 10px;
@@ -532,19 +489,20 @@ footer{
 }
 .boutonfiltre:hover{
     color: #0065FC;
-    border: #00000051 2px solid;
+    border:#0065FC 2px solid;
 }
 .infobas a:hover{
-    text-shadow: black 0px 0px 1px;
+    color:  #0065FC;
 }
 .liennav:hover{
     border-top: solid 3px #0065FC;
     color: #0065FC;
+    padding-top: 47px;
 }
 #boutonrecherche:hover{
     text-shadow: white 0px 0px 6px;
 }
-@media screen and (max-width: 1480px)
+@media screen and (max-width: 1245px)
 {
     #bloc_page{
         width: auto;
@@ -553,14 +511,14 @@ footer{
         flex-direction: column-reverse;
     }
     #populaire{
-        margin-left: 1em;
         width: auto;
+        margin-left: 0;
     }
     #filtres{
         width: 100%;
     }
     #marseille{
-        margin-right: 1em;
+        margin-right: 0;
         width: auto;
     }
     #propositionactivites{
@@ -571,12 +529,12 @@ footer{
     }
     .activites2{
         width: 100%;
-        height: 20%;
+        height: 23%;
         flex-direction: row;
     }   
     .petitcarre3{
         width: 100%;
-        height: 20%;
+        height: 23%;
     }
     .petitcarre4{
         width: 48%;
@@ -586,22 +544,7 @@ footer{
         width: 48%;
         height: 100%;
     }
-    .imageactivite1{
-        height: 80%;
-    }
-    .imageactivite2{
-        height: 80%;
-    }
-    .imageactivite3{
-        height: 80%;
-    }
-    .imageactivite4{
-        height: 80%;
-    }
-    .imageactivite5{
-        height: 80%;
-    }
-    .imageactivite6{
+    .imageactivite1, .imageactivite2, .imageactivite3, .imageactivite4, .imageactivite5, .imageactivite6{
         height: 80%;
     }
 }
@@ -609,30 +552,92 @@ footer{
 {
     header{
         flex-direction: column;
+        padding: 0;
     }
     #imglogo{
         width: 7.5em;
-    }
-    nav ul{
-        width: unset;
-        margin-left: 1em;
+        margin-left: 2em;
     }
     #marseille{
-        height: 65em;
+        height: 57em;
+        margin-right: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #marseille h2{
+        padding-left: 1em;
     }
     #propositionhebergement{
         justify-content: space-around;
+        height: 80%;
     }
     .petitcarre{
         width: 45%;
     }
+    .liennav:nth-child(1){
+        border-top: unset;
+        border-bottom: solid 4px #cacaca85;
+        width: 50%;
+        font-size: 0.7em;
+        padding-bottom: 15px;
+    }
+    .liennav:nth-child(2){
+        width: 50%;
+        color: black;
+        font-size: 0.7em;
+        border-bottom: solid 4px #cacaca85;
+        padding-bottom: 15px;
+    }
+    .liennav:nth-child(3){
+        position: absolute;
+        top: 1.5em;
+        right: 3em;
+        font-size: 0.7em;
+        color: #0065FC;
+        width: 5em;
+        padding-top: 20px;
+    }
+    nav{
+        margin: 0;
+    }
+    .liennav{
+        width: 50%;
+        padding-top: 3em;
+    }
+    nav ul{
+        margin: 0;
+        width: 100%;
+        align-items: flex-end;
+        font-size: 1.4em;
+    }
+    .liennav:nth-child(1):hover{
+        border-top: unset;
+        border-bottom: 4px solid #0065FC;
+    }
+    .liennav:nth-child(2):hover{
+        border-top: unset;
+        border-bottom: 4px solid #0065FC;
+    }
+    .liennav:nth-child(3):hover{
+        border-top: unset;
+    }
+    .afficher{
+        padding-top: 1.5em;
+        padding-left: 1em;
+    }
+    #populaire{
+        margin: 0;
+    }
+    #i{
+        margin-bottom: 2em;
+    }
+    #entete, #hebergement, #activites{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 @media screen and (max-width: 750px)
 {
-    header{
-        padding-left: 1em;
-        padding-right: 1em;
-    }
     nav{
         margin: 0;
     }
@@ -647,10 +652,14 @@ footer{
     #activites{
         padding-right: 1em;
         padding-left: 1em;
+        margin-top: 5em;
     }
     .petitcarre{
         width: 100%;
         height: 15%;
+    }
+    .imagehebergement1, .imagehebergement2, .imagehebergement3, .imagehebergement4, .imagehebergement5, .imagehebergement6{
+        width: 98.6%;
     }
     #marseille{
         height: 130em;
@@ -692,6 +701,10 @@ footer{
     #activites h3{
         margin-top: 10px;
     }
+    .infobas{
+        margin-left: 2em;
+        margin-right: 3em;
+    }
     footer{
         height: 18em;
     }
@@ -706,44 +719,12 @@ footer{
         margin-bottom: 2em;
         padding: 0;
     }
+    .liennav:nth-child(3){
+        right: 15px;
+    }
     #imglogo{
         width: 7.5em;
         margin-top: 1.5em;
-    }
-    .liennav:nth-child(1){
-        border-top: unset;
-        border-bottom: solid 4px #0065FC;
-        width: 50%;
-        font-size: 0.8em;
-        padding-bottom: 15px;
-    }
-    .liennav:nth-child(2){
-        width: 50%;
-        color: black;
-        font-size: 0.8em;
-        border-bottom: solid 4px #cacaca85;
-        padding-bottom: 15px;
-    }
-    .liennav:nth-child(3){
-        position: absolute;
-        top: 0.7em;
-        right: 0em;
-        font-size: 0.8em;
-        color: #0065FC;
-        width: 5em;
-    }
-    nav{
-        margin: 0;
-    }
-    .liennav{
-        width: 50%;
-        padding-top: 1.5em;
-    }
-    nav ul{
-        margin: 0;
-        width: 100%;
-        align-items: flex-end;
-        font-size: 1.4em;
     }
     #boutonrecherche{
         display: none;
@@ -758,8 +739,9 @@ footer{
         text-align: center;
         border-radius: 1em;
         position: relative;
-        left: -14px;
+        left: -15px;
         color: white;
+        height: 50px;
     }
     .loupe{
         width: 1.1em;
@@ -784,22 +766,22 @@ footer{
         padding-left: 1em;
     }
     .boitelogolocalisation{
-        height: 3em;
-        width: 3em;
+        height: 50px;
+        width: 50px;
     }
     #barrerecherche{
         width: 70%;
         font-size: 1.1em;
     }
     .marker{
-        padding-top: 0.7em;
+        padding-top: 0.85em;
         width: 0.8em;
     }
     .boutonfiltre{
         font-size: 1.1em;
         margin: 0;
-        margin-right: 0.6em;
-        margin-bottom: 0.7em;
+        margin-right: 0.3em;
+        margin-bottom: 0.4em;
         height: 2.4em;
         padding-bottom: 7px;
     }
@@ -808,14 +790,17 @@ footer{
         font-size: 1.3em;
     }
     footer{
+        height: 100%;
+    }
+    #conteneur{
         flex-direction: column;
-        height: 35em;
+        height: 100%;
     }
     .infobas{
         width: 100%;
     }
     .logofiltre{
-        height: 2.05em;
+        height: 34px;
         width: 3em;
         top: -2px;
     }
@@ -834,7 +819,8 @@ footer{
         margin-bottom: 2em;
     }
     .logoi{
-        height: 1.7em;
+        height: 1.3em;
+        border: 1px solid rgba(0, 0, 0, 0.363);
     }
     .svgi{
         padding-top: 4px;
@@ -850,6 +836,9 @@ footer{
     #populaire h2{
         margin-left: 1em;
     }
+    .imagehebergement1, .imagehebergement2, .imagehebergement3, .imagehebergement4, .imagehebergement5, .imagehebergement6{
+        width: 97%;
+    }
     .petitcarre2{
         width: 90%;
     }
@@ -857,7 +846,7 @@ footer{
         width: 50%;
     }
     .imagehebergement8{
-        width: 75%;
+        width: 50%;
     }
     .imagehebergement9{
         width: 50%;
@@ -937,5 +926,11 @@ footer{
     }
     .infobas{
         width: 80%;
+    }
+}
+@media screen and (max-width: 365px)
+{
+    .texthebergement2 h3{
+        padding-right: 0;
     }
 }
