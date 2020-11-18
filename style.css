@@ -60,8 +60,8 @@ nav ul{
 #recherche{
     display: flex;
 }
-.marker{
-    height: 1.2em;
+.fa-map-marker-alt{
+    padding-top: 15px;
 }
 #entete{
     padding-left: 55px;
@@ -81,9 +81,6 @@ nav ul{
     text-align: center;
     border-radius: 1em 0 0 1em;
     background-color: #e2e2e2;
-}
-.marker{
-    padding-top: 15px;
 }
 #barrerecherche{
     width: 240px;
@@ -113,7 +110,7 @@ nav ul{
     display: none;
     background-color:  #0065FC;
 }
-.logofiltre svg{
+.logofiltre i{
     width: 1.2em;
     color: #0065FC;
 }
@@ -154,9 +151,9 @@ nav ul{
 .lienfiltre{
     display: flex;
 }
-.logofiltre2 svg{
-    width: 1.3em;
+.logofiltre2 i{
     color: #0065FC;
+    padding-top: 5px;
 }
 .boutonfiltre p{
     margin: 0;
@@ -168,9 +165,7 @@ nav ul{
     margin-right: 2em;
     font-size: 1.2em;
 }
-.svgi{
-    width: 0.27em;
-    padding-top: 3px;
+.fa-info{
     color: #0065FC;
 }
 #i{
@@ -229,7 +224,7 @@ nav ul{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.imagehebergement1, .imagehebergement2, .imagehebergement3, .imagehebergement4, .imagehebergement5, .imagehebergement6{
+.imagehebergement{
     width: 96%;
     height: 56%;
     margin: auto;
@@ -544,7 +539,7 @@ footer{
         width: 48%;
         height: 100%;
     }
-    .imageactivite1, .imageactivite2, .imageactivite3, .imageactivite4, .imageactivite5, .imageactivite6{
+    .imgact{
         height: 80%;
     }
 }
@@ -709,7 +704,7 @@ footer{
         height: 18em;
     }
 }
-@media all and (max-device-width: 480px)
+@media all and (max-width: 480px)
 {
     #bloc_page{
         width: auto;
